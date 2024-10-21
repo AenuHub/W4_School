@@ -45,5 +45,10 @@
                 }
             }
         }
+
+        public void Introduce()
+        {
+            Console.WriteLine($"{name} {surname} was born in {birthYear}");
+        }
     }
 }

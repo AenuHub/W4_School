@@ -25,9 +25,9 @@ internal class Program
         student2.Surname = "Newman";
         student2.BirthYear = 1992;
 
-        Console.WriteLine($"{teacher1.Name} {teacher1.Surname} was born in {teacher1.BirthYear}.");
-        Console.WriteLine($"{teacher2.Name} {teacher2.Surname} was born in {teacher2.BirthYear}.");
-        Console.WriteLine($"{student1.Name} {student1.Surname} was born in {student1.BirthYear}.");
-        Console.WriteLine($"{student2.Name} {student2.Surname} was born in {student2.BirthYear}.");
+        teacher1.Introduce();
+        teacher2.Introduce();
+        student1.Introduce();
+        student2.Introduce();
     }
 }
